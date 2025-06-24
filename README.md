@@ -1,49 +1,49 @@
-# agent-handbook
+# 🤖 Agent Engineering Handbook
 
-https://huggingface.co/learn
+A curated collection of resources for building, evaluating, and understanding AI agents and Large Language Models.
 
-https://huggingface.co/docs
+---
 
-## LLM
+## 📚 General Resources
 
-https://huggingface.co/learn/llm-course
+- **[Hugging Face Learn](https://huggingface.co/learn)**: Tutorials and courses on a wide range of ML topics.
+- **[Hugging Face Docs](https://huggingface.co/docs)**: Official documentation for Hugging Face libraries and tools.
+- **[Hugging Face Spaces](https://huggingface.co/spaces)**: A platform to build, share, and host ML demos.
 
-https://github.com/huggingface/smol-course
+---
 
-https://github.com/huggingface/smollm
+## 🧠 Large Language Models (LLM)
 
-https://huggingface.co/collections/HuggingFaceTB/smollm-6695016cad7167254ce15966
+- **[Hugging Face LLM Course](https://huggingface.co/learn/llm-course)**: A free course on Large Language Models.
+- **[smol-course](https://github.com/huggingface/smol-course)**: A small, focused course on LLMs from Hugging Face.
+- **[smollm](https://github.com/huggingface/smollm)**: A repository related to the smol-course.
+- **[smollm Collection](https://huggingface.co/collections/HuggingFaceTB/smollm-6695016cad7167254ce15966)**: A Hugging Face collection of models and datasets for the smollm course.
 
-## Agent
+---
 
-https://huggingface.co/learn/agents-course
+## 🤖 AI Agents
 
-https://huggingface.co/docs/smolagents
+- **[Hugging Face Agents Course](https://huggingface.co/learn/agents-course)**: A course dedicated to building AI agents.
+- **[smolagents Docs](https://huggingface.co/docs/smolagents)**: Documentation for the smolagents library.
+- **[smolagents GitHub](https://github.com/huggingface/smolagents)**: The source code for the smolagents library.
+- **[Why LangGraph?](https://langchain-ai.github.io/langgraph/concepts/why-langgraph/)**: An introduction to the concepts behind LangGraph.
+- **[LangGraph GitHub](https://github.com/langchain-ai/langgraph)**: A library for building stateful, multi-actor applications with LLMs.
 
-https://github.com/huggingface/smolagents
+---
 
-https://langchain-ai.github.io/langgraph/concepts/why-langgraph/
+## 🤝 Model Context Protocol (MCP)
 
-https://github.com/langchain-ai/langgraph
+- **[Hugging Face MCP Course](https://huggingface.co/learn/mcp-course)**: Learn about the Model Context Protocol.
+- **[MCP Introduction](https://modelcontextprotocol.io/introduction)**: The official introduction to MCP.
+- **[Python SDK for MCP](https://github.com/modelcontextprotocol/python-sdk)**: The official Python SDK for MCP.
+- **[MCP Servers](https://github.com/modelcontextprotocol/servers)**: Implementations of MCP servers.
+- **[MCP Servers Hub](https://mcpservers.org/)**: A place to discover and share MCP servers.
 
-## MCP
+---
 
-https://huggingface.co/learn/mcp-course
+## 📊 Evaluation & Monitoring
 
-https://modelcontextprotocol.io/introduction
-
-https://github.com/modelcontextprotocol/python-sdk
-
-https://github.com/modelcontextprotocol/servers
-
-https://mcpservers.org/
-
-## Evaluate
-
-https://mlflow.org/
-
-https://github.com/mlflow/mlflow
-
-https://arize.com/docs/phoenix
-
-https://github.com/Arize-ai/phoenix
+- **[MLflow](https://mlflow.org/)**: An open-source platform to manage the ML lifecycle, including experimentation, reproducibility, and deployment.
+- **[MLflow GitHub](https://github.com/mlflow/mlflow)**: The source code for MLflow.
+- **[Arize Phoenix Docs](https://arize.com/docs/phoenix)**: Documentation for Phoenix, an open-source ML observability library.
+- **[Phoenix GitHub](https://github.com/Arize-ai/phoenix)**: The source code for Arize Phoenix.
