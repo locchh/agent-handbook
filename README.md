@@ -47,3 +47,10 @@ A curated collection of resources for building, evaluating, and understanding AI
 - **[MLflow GitHub](https://github.com/mlflow/mlflow)**: The source code for MLflow.
 - **[Arize Phoenix Docs](https://arize.com/docs/phoenix)**: Documentation for Phoenix, an open-source ML observability library.
 - **[Phoenix GitHub](https://github.com/Arize-ai/phoenix)**: The source code for Arize Phoenix.
+
+---
+
+## 🎨 UI
+
+- **[Gradio](https://www.gradio.app/docs)**: A library for building UIs for LLMs.
+- **[Gradio GitHub](https://github.com/gradio-app/gradio)**: The source code for Gradio.
