@@ -38,16 +38,90 @@
 
 - **Neo4j**: [https://neo4j.com/](https://neo4j.com/)
 
-- **Chroma**: [](https://www.trychroma.com/)
+- **Chroma**: [https://www.trychroma.com/](https://www.trychroma.com/)
 
-- **Qdrant**: [](https://qdrant.tech/)
+- **Qdrant**: [https://qdrant.tech/](https://qdrant.tech/)
 
-- **Milvus**: [](https://milvus.io/)
+- **Milvus**: [https://milvus.io/](https://milvus.io/)
 
 - **GraphQL**: [https://graphql.org/](https://graphql.org/)
 
 - **FAISS**: [https://github.com/facebookresearch/faiss](https://github.com/facebookresearch/faiss)
 
 ## Tools
+
+## Tools
+
+### 🔍 Search
+
+Tools that execute online searches:
+
+| Tool/Toolkit                                                                               | Free/Paid                    | Return Data                                           |
+| ------------------------------------------------------------------------------------------ | ---------------------------- | ----------------------------------------------------- |
+| [Bing Search](https://python.langchain.com/docs/integrations/tools/bing_search)            | Paid                         | URL, Snippet, Title                                   |
+| [Brave Search](https://python.langchain.com/docs/integrations/tools/brave_search)          | Free                         | URL, Snippet, Title                                   |
+| [DuckDuckgoSearch](https://python.langchain.com/docs/integrations/tools/duckduckgo_search) | Free                         | URL, Snippet, Title                                   |
+| [Exa Search](https://python.langchain.com/docs/integrations/tools/exa_search)              | 1000 free searches/month     | URL, Author, Title, Published Date                    |
+| [Google Search](https://python.langchain.com/docs/integrations/tools/google_search)        | Paid                         | URL, Snippet, Title                                   |
+| [Google Serper](https://python.langchain.com/docs/integrations/tools/google_serper)        | Free                         | URL, Snippet, Title, Search Rank, Site Links          |
+| [Jina Search](https://python.langchain.com/docs/integrations/tools/jina_search)            | 1M Response Tokens Free      | URL, Snippet, Title, Page Content                     |
+| [Mojeek Search](https://python.langchain.com/docs/integrations/tools/mojeek_search)        | Paid                         | URL, Snippet, Title                                   |
+| [SearchApi](https://python.langchain.com/docs/integrations/tools/search_api)               | 100 Free Searches on Sign Up | URL, Snippet, Title, Search Rank, Site Links, Authors |
+| [SearxNG Search](https://python.langchain.com/docs/integrations/tools/searxng_search)      | Free                         | URL, Snippet, Title, Category                         |
+| [SerpAPI](https://python.langchain.com/docs/integrations/tools/serpapi)                    | 100 Free Searches/Month      | Answer                                                |
+| [Tavily Search](https://python.langchain.com/docs/integrations/tools/tavily_search)        | 1000 free searches/month     | URL, Content, Title, Images, Answer                   |
+| [You.com Search](https://python.langchain.com/docs/integrations/tools/youcom_search)       | Free for 60 days             | URL, Title, Page Content                              |
+
+### 💻 Code Interpreter
+
+| Tool/Toolkit                                                                                                                        | Supported Languages           | Sandbox Lifetime    | Supports File Uploads | Return Types | Supports Self-Hosting |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------- | --------------------- | ------------ | --------------------- |
+| [Azure Container Apps dynamic sessions](https://python.langchain.com/docs/integrations/tools/azure_container_apps_dynamic_sessions) | Python                        | 1 Hour              | ✅                     | Text, Images | ❌                     |
+| [Bearly Code Interpreter](https://python.langchain.com/docs/integrations/tools/bearly_code_interpreter)                             | Python                        | Resets on Execution | ✅                     | Text         | ❌                     |
+| [Riza Code Interpreter](https://python.langchain.com/docs/integrations/tools/riza_code_interpreter)                                 | Python, JavaScript, PHP, Ruby | Resets on Execution | ✅                     | Text         | ✅                     |
+
+### 📈 Productivity
+
+| Tool/Toolkit                                                                                | Pricing                                                 |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| [Github Toolkit](https://python.langchain.com/docs/integrations/tools/github_toolkit)       | Free                                                    |
+| [Gitlab Toolkit](https://python.langchain.com/docs/integrations/tools/gitlab_toolkit)       | Free for personal project                               |
+| [Gmail Toolkit](https://python.langchain.com/docs/integrations/tools/gmail_toolkit)         | Free, with limit of 250 quota units per user per second |
+| [Infobip Tool](https://python.langchain.com/docs/integrations/tools/infobip_tool)           | Free trial, with variable pricing after                 |
+| [Jira Toolkit](https://python.langchain.com/docs/integrations/tools/jira_toolkit)           | Free, with rate limits                                  |
+| [Office365 Toolkit](https://python.langchain.com/docs/integrations/tools/office365_toolkit) | Free with Office365, includes rate limits               |
+| [Slack Toolkit](https://python.langchain.com/docs/integrations/tools/slack_toolkit)         | Free                                                    |
+| [Twilio Tool](https://python.langchain.com/docs/integrations/tools/twilio_tool)             | Free trial, with pay-as-you-go pricing after            |
+
+### 🌐 Web Browsing
+
+| Tool/Toolkit                                                                                                              | Pricing                                                     | Supports Interacting with the Browser |
+| ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------- |
+| [AgentQL Toolkit](https://python.langchain.com/docs/integrations/tools/agentql_toolkit)                                   | Free trial, with pay-as-you-go and flat rate plans after    | ✅                                     |
+| [Hyperbrowser Browser Agent Tools](https://python.langchain.com/docs/integrations/tools/hyperbrowser_browser_agent_tools) | Free trial, with flat rate plans and pre-paid credits after | ✅                                     |
+| [Hyperbrowser Web Scraping Tools](https://python.langchain.com/docs/integrations/tools/hyperbrowser_web_scraping_tools)   | Free trial, with flat rate plans and pre-paid credits after | ❌                                     |
+| [MultiOn Toolkit](https://python.langchain.com/docs/integrations/tools/multion_toolkit)                                   | 40 free requests/day                                        | ✅                                     |
+| [PlayWright Browser Toolkit](https://python.langchain.com/docs/integrations/tools/playwright_browser_toolkit)             | Free                                                        | ✅                                     |
+| [Requests Toolkit](https://python.langchain.com/docs/integrations/tools/requests_toolkit)                                 | Free                                                        | ❌                                     |
+
+### 🗄️ Database
+
+| Tool/Toolkit                                                                                         | Allowed Operations              |
+| ---------------------------------------------------------------------------------------------------- | ------------------------------- |
+| [Cassandra Database Toolkit](https://python.langchain.com/docs/integrations/tools/cassandra_toolkit) | SELECT and schema introspection |
+| [SQLDatabase Toolkit](https://python.langchain.com/docs/integrations/tools/sqldatabase_toolkit)      | Any SQL operation               |
+| [Spark SQL Toolkit](https://python.langchain.com/docs/integrations/tools/spark_sql_toolkit)          | Any SQL operation               |
+
+
+### 💰 Finance
+
+| Tool/Toolkit                                                      | Pricing | Capabilities                                                                     |
+| ----------------------------------------------------------------- | ------- | -------------------------------------------------------------------------------- |
+| [GOAT](https://python.langchain.com/docs/integrations/tools/goat) | Free    | Create and receive payments, purchase physical goods, make investments, and more |
+
+
+For a full list of tools, visit the [LangChain Tool Integrations Page](https://python.langchain.com/docs/integrations/tools/).
+
+### Document Processing
 
 - **Docling**: [docling](https://docling-project.github.io/docling/#features)
