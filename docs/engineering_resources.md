@@ -48,6 +48,15 @@
 
 - **FAISS**: [https://github.com/facebookresearch/faiss](https://github.com/facebookresearch/faiss)
 
+## Containerization
+
+- **Docker**: [https://www.docker.com/](https://www.docker.com/)
+
+- **Kubernetes**: [https://kubernetes.io/](https://kubernetes.io/)
+
+- **Minikube**: [https://minikube.sigs.k8s.io/](https://minikube.sigs.k8s.io/)
+
+
 ## Tools
 
 - Search
