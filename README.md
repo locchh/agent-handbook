@@ -1,4 +1,4 @@
-# 🤖 Agent Engineering Handbook
+# Agent Engineering Handbook
 
 A curated collection of resources for building, evaluating, and understanding AI agents and Large Language Models.
 
@@ -54,3 +54,9 @@ A curated collection of resources for building, evaluating, and understanding AI
 
 - **[Gradio](https://www.gradio.app/docs)**: A library for building UIs for LLMs.
 - **[Gradio GitHub](https://github.com/gradio-app/gradio)**: The source code for Gradio.
+
+---
+
+## 🌐 Engineering Resources
+
+- **[Engineering Resources](./docs/engineering_resources.md)**: A collection of resources for building, evaluating, and understanding AI agents and Large Language Models.
