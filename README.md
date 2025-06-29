@@ -2,15 +2,11 @@
 
 A curated collection of resources for building, evaluating, and understanding AI agents and Large Language Models.
 
----
-
 ## 📚 General Resources
 
 - **[Hugging Face Learn](https://huggingface.co/learn)**: Tutorials and courses on a wide range of ML topics.
 - **[Hugging Face Docs](https://huggingface.co/docs)**: Official documentation for Hugging Face libraries and tools.
 - **[Hugging Face Spaces](https://huggingface.co/spaces)**: A platform to build, share, and host ML demos.
-
----
 
 ## 🧠 Large Language Models (LLM)
 
@@ -20,8 +16,6 @@ A curated collection of resources for building, evaluating, and understanding AI
 - **[smollm Collection](https://huggingface.co/collections/HuggingFaceTB/smollm-6695016cad7167254ce15966)**: A Hugging Face collection of models and datasets for the smollm course.
 - **[DSPy](https://dspy.ai/)**: A declarative framework for building modular AI software.
 
----
-
 ## 🤖 AI Agents
 
 - **[Hugging Face Agents Course](https://huggingface.co/learn/agents-course)**: A course dedicated to building AI agents.
@@ -29,8 +23,6 @@ A curated collection of resources for building, evaluating, and understanding AI
 - **[smolagents GitHub](https://github.com/huggingface/smolagents)**: The source code for the smolagents library.
 - **[Why LangGraph?](https://langchain-ai.github.io/langgraph/concepts/why-langgraph/)**: An introduction to the concepts behind LangGraph.
 - **[LangGraph GitHub](https://github.com/langchain-ai/langgraph)**: A library for building stateful, multi-actor applications with LLMs.
-
----
 
 ## 🤝 Model Context Protocol (MCP)
 
@@ -40,8 +32,6 @@ A curated collection of resources for building, evaluating, and understanding AI
 - **[MCP Servers](https://github.com/modelcontextprotocol/servers)**: Implementations of MCP servers.
 - **[MCP Servers Hub](https://mcpservers.org/)**: A place to discover and share MCP servers.
 
----
-
 ## 📊 Evaluation & Monitoring
 
 - **[MLflow](https://mlflow.org/)**: An open-source platform to manage the ML lifecycle, including experimentation, reproducibility, and deployment.
@@ -49,14 +39,10 @@ A curated collection of resources for building, evaluating, and understanding AI
 - **[Arize Phoenix Docs](https://arize.com/docs/phoenix)**: Documentation for Phoenix, an open-source ML observability library.
 - **[Phoenix GitHub](https://github.com/Arize-ai/phoenix)**: The source code for Arize Phoenix.
 
----
-
 ## 🎨 UI
 
 - **[Gradio](https://www.gradio.app/docs)**: A library for building UIs for LLMs.
 - **[Gradio GitHub](https://github.com/gradio-app/gradio)**: The source code for Gradio.
-
----
 
 ## 🌐 Engineering Resources
 
