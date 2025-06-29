@@ -50,9 +50,7 @@
 
 ## Tools
 
-### Search
-
-Tools that execute online searches:
+Search
 
 | Tool/Toolkit                                                                               | Free/Paid                    | Return Data                                           |
 | ------------------------------------------------------------------------------------------ | ---------------------------- | ----------------------------------------------------- |
@@ -70,7 +68,7 @@ Tools that execute online searches:
 | [Tavily Search](https://python.langchain.com/docs/integrations/tools/tavily_search)        | 1000 free searches/month     | URL, Content, Title, Images, Answer                   |
 | [You.com Search](https://python.langchain.com/docs/integrations/tools/youcom_search)       | Free for 60 days             | URL, Title, Page Content                              |
 
-### Code Interpreter
+Code Interpreter
 
 | Tool/Toolkit                                                                                                                        | Supported Languages           | Sandbox Lifetime    | Supports File Uploads | Return Types | Supports Self-Hosting |
 | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------- | --------------------- | ------------ | --------------------- |
@@ -78,7 +76,7 @@ Tools that execute online searches:
 | [Bearly Code Interpreter](https://python.langchain.com/docs/integrations/tools/bearly_code_interpreter)                             | Python                        | Resets on Execution | ✅                     | Text         | ❌                     |
 | [Riza Code Interpreter](https://python.langchain.com/docs/integrations/tools/riza_code_interpreter)                                 | Python, JavaScript, PHP, Ruby | Resets on Execution | ✅                     | Text         | ✅                     |
 
-### Productivity
+Productivity
 
 | Tool/Toolkit                                                                                | Pricing                                                 |
 | ------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
@@ -91,7 +89,7 @@ Tools that execute online searches:
 | [Slack Toolkit](https://python.langchain.com/docs/integrations/tools/slack_toolkit)         | Free                                                    |
 | [Twilio Tool](https://python.langchain.com/docs/integrations/tools/twilio_tool)             | Free trial, with pay-as-you-go pricing after            |
 
-### Web Browsing
+Web Browsing
 
 | Tool/Toolkit                                                                                                              | Pricing                                                     | Supports Interacting with the Browser |
 | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------- |
@@ -102,7 +100,7 @@ Tools that execute online searches:
 | [PlayWright Browser Toolkit](https://python.langchain.com/docs/integrations/tools/playwright_browser_toolkit)             | Free                                                        | ✅                                     |
 | [Requests Toolkit](https://python.langchain.com/docs/integrations/tools/requests_toolkit)                                 | Free                                                        | ❌                                     |
 
-### Database
+Database
 
 | Tool/Toolkit                                                                                         | Allowed Operations              |
 | ---------------------------------------------------------------------------------------------------- | ------------------------------- |
@@ -110,8 +108,7 @@ Tools that execute online searches:
 | [SQLDatabase Toolkit](https://python.langchain.com/docs/integrations/tools/sqldatabase_toolkit)      | Any SQL operation               |
 | [Spark SQL Toolkit](https://python.langchain.com/docs/integrations/tools/spark_sql_toolkit)          | Any SQL operation               |
 
-
-### Finance
+Finance
 
 | Tool/Toolkit                                                      | Pricing | Capabilities                                                                     |
 | ----------------------------------------------------------------- | ------- | -------------------------------------------------------------------------------- |
@@ -120,9 +117,7 @@ Tools that execute online searches:
 
 For a full list of tools, visit the [LangChain Tool Integrations Page](https://python.langchain.com/docs/integrations/tools/).
 
-## Document Loaders
-
-### Webpages
+## Document
 
 These loaders allow you to load webpages. See this [guide](https://docs.langchain.com/docs/modules/data_connection/document_loaders/how_to/web) to get started.
 
@@ -136,8 +131,6 @@ These loaders allow you to load webpages. See this [guide](https://docs.langchai
 | [`Docling`](https://ds4sd.github.io/docling/)                                                   | Uses Docling to parse web pages     | Package |
 | [`Hyperbrowser`](https://python.langchain.com/docs/integrations/document_loaders/hyperbrowser)  | Scales headless browser tasks       | API     |
 | [`AgentQL`](https://python.langchain.com/docs/integrations/document_loaders/agentql)            | Structured web data extraction      | API     |
-
-### PDFs
 
 See the [guide](https://docs.langchain.com/docs/modules/data_connection/document_loaders/how_to/pdf) to load PDF files.
 
@@ -156,7 +149,7 @@ See the [guide](https://docs.langchain.com/docs/modules/data_connection/document
 | [`Upstage`](https://python.langchain.com/docs/integrations/document_loaders/upstage)                 | Loads PDFs via Upstage API   | Package |
 | [`Docling`](https://ds4sd.github.io/docling/)                                                        | Loads PDFs with Docling      | Package |
 
-### Cloud Providers
+Cloud Providers
 
 | Document Loader                | Description                     | API Reference                     |
 | ------------------------------ | ------------------------------- | --------------------------------- |
@@ -176,14 +169,14 @@ See the [guide](https://docs.langchain.com/docs/modules/data_connection/document
 | Tencent COS Directory          | Load from Tencent COS Directory | `TencentCOSDirectoryLoader`       |
 | Tencent COS File               | Load from Tencent COS File      | `TencentCOSFileLoader`            |
 
-### Social Platforms
+Social Platforms
 
 | Document Loader | API Reference        |
 | --------------- | -------------------- |
 | Twitter         | `TwitterTweetLoader` |
 | Reddit          | `RedditPostsLoader`  |
 
-### Messaging Services
+Messaging Services
 
 | Document Loader | API Reference            |
 | --------------- | ------------------------ |
@@ -193,7 +186,7 @@ See the [guide](https://docs.langchain.com/docs/modules/data_connection/document
 | Facebook Chat   | `FacebookChatLoader`     |
 | Mastodon        | `MastodonTootsLoader`    |
 
-### Productivity Tools
+Productivity Tools
 
 | Document Loader | API Reference           |
 | --------------- | ----------------------- |
@@ -205,7 +198,7 @@ See the [guide](https://docs.langchain.com/docs/modules/data_connection/document
 | Roam            | `RoamLoader`            |
 | GitHub          | `GithubFileLoader`      |
 
-### Common File Types
+Common File Types
 
 | Document Loader                                                                                | Data Type                  |
 | ---------------------------------------------------------------------------------------------- | -------------------------- |
