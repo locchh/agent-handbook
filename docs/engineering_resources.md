@@ -38,4 +38,16 @@
 
 - **Neo4j**: [https://neo4j.com/](https://neo4j.com/)
 
+- **Chroma**: [](https://www.trychroma.com/)
+
+- **Qdrant**: [](https://qdrant.tech/)
+
+- **Milvus**: [](https://milvus.io/)
+
 - **GraphQL**: [https://graphql.org/](https://graphql.org/)
+
+- **FAISS**: [https://github.com/facebookresearch/faiss](https://github.com/facebookresearch/faiss)
+
+## Tools
+
+- **Docling**: [docling](https://docling-project.github.io/docling/#features)
