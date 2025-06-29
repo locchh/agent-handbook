@@ -18,6 +18,7 @@ A curated collection of resources for building, evaluating, and understanding AI
 - **[smol-course](https://github.com/huggingface/smol-course)**: A small, focused course on LLMs from Hugging Face.
 - **[smollm](https://github.com/huggingface/smollm)**: A repository related to the smol-course.
 - **[smollm Collection](https://huggingface.co/collections/HuggingFaceTB/smollm-6695016cad7167254ce15966)**: A Hugging Face collection of models and datasets for the smollm course.
+- **[DSPy](https://dspy.ai/)**: A declarative framework for building modular AI software.
 
 ---
 
