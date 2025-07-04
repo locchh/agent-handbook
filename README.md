@@ -1,6 +1,11 @@
-# Agent Engineering Handbook
+<h1 align="center">Agent Engineering Handbook</h1>
 
 A curated collection of resources for building, evaluating, and understanding AI agents and Large Language Models.
+
+<p align="center"><img src="assets/agent.png" width="50%"></p>
+<p align="center"><em>Figure 1 – A generic agent architecture.</em></p>
+<p align="center"><img src="assets/mcp-agent.png" width="50%"></p>
+<p align="center"><em>Figure 2 – An AI-agent stack that uses Model Context Protocol for unified context (tools, memory, docs).</em></p>
 
 ## 📚 General Resources
 
@@ -31,6 +36,7 @@ A curated collection of resources for building, evaluating, and understanding AI
 - **[Python SDK for MCP](https://github.com/modelcontextprotocol/python-sdk)**: The official Python SDK for MCP.
 - **[MCP Servers](https://github.com/modelcontextprotocol/servers)**: Implementations of MCP servers.
 - **[MCP Servers Hub](https://mcpservers.org/)**: A place to discover and share MCP servers.
+- **[MCP Market](https://mcpmarket.com/)**: A place to discover and share MCP servers.
 
 ## 📊 Evaluation & Monitoring
 
@@ -47,3 +53,6 @@ A curated collection of resources for building, evaluating, and understanding AI
 ## 🌐 Engineering Resources
 
 - **[Engineering Resources](./docs/engineering_resources.md)**: A collection of resources for building, evaluating, and understanding AI agents and Large Language Models.
+
+
+*Gather a broad range of aspects and resources (frameworks, libraries, tools, etc.). Choose the most representative ones, learn just enough to build something, then practice until you can see beyond the details to the underlying patterns.*
