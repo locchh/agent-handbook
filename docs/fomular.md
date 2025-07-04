@@ -1,38 +1,46 @@
 
 # Universal Learning Formula (Languages, Frameworks, and More)
 
+## Find the Right Resources
+
+To learn any new technology effectively, focus on these three key resources:
+
+* **Official Documentation:** Builds a solid foundation by explaining concepts, features, and usage as intended by the creators.
+* **Example Codebases:** Helps you see how others use the technology in real-world scenarios and exposes you to best practices.
+* **Open Source Implementations:** Allows you to dive deeper into the internals, core concepts, and underlying patterns.
+
 ## Rapid Learning Framework
 
->1. **Start with the fundamentals**
->   - Master the core concepts before diving into advanced topics
->   - Understand the problem the language/framework is designed to solve
->   - Learn the mental models and paradigms (OOP, functional, reactive, etc.)
+> 1. **Master the Fundamentals => Ask Coding Assisstant**
 >
->2. **Follow the 80/20 principle**
->   - Identify the 20% of features that are used 80% of the time
->   - Focus on high-leverage concepts first (data structures, algorithms, design patterns)
->   - Defer niche or rarely-used features until needed
+>    * Grasp the core concepts before tackling advanced topics.
+>    * Understand the problem the technology aims to solve.
+>    * Learn essential mental models and paradigms (OOP, functional, reactive, etc.).
+> 2. **Apply the 80/20 Rule =>Ask Coding Assisstant**
 >
->3. **Build projects incrementally**
->   - Start with small, achievable projects that use core functionality
->   - Gradually increase complexity as your understanding grows
->   - Recreate parts of applications you admire to understand implementation details
+>    * Focus on the 20% of features that deliver 80% of the value.
+>    * Prioritize high-impact concepts: data structures, algorithms, and design patterns.
+>    * Leave rare or edge-case features for later, when necessary.
+> 3. **Build Projects Gradually**
 >
->4. **Practice deliberate learning**
->   - Set specific learning goals with measurable outcomes
->   - Time-box your learning sessions (Pomodoro technique)
->   - Regularly review and consolidate what you've learned
+>    * Start small, using core features in simple projects.
+>    * Increase project complexity as your confidence grows.
+>    * Rebuild features from apps you admire to deepen understanding.
+> 4. **Practice with Intention**
 >
->5. **Develop a testing mindset**
->   - Learn how to write tests for the technology
->   - Understand testing frameworks and methodologies
->   - Practice test-driven development when appropriate
+>    * Set clear learning goals with measurable outcomes.
+>    * Use time management techniques like Pomodoro to stay focused.
+>    * Regularly review and reinforce what you’ve learned.
+> 5. **Adopt a Testing Mindset**
 >
->6. **Use the documentation effectively**
->   - Begin with official tutorials and getting started guides
->   - Reference the API documentation frequently
->   - Study the architecture and design philosophy sections
-
+>    * Learn to write effective tests for your code.
+>    * Understand testing frameworks and methodologies.
+>    * Practice Test-Driven Development (TDD) when suitable.
+> 6. **Leverage Documentation Wisely**
+>
+>    * Start with official tutorials and beginner guides.
+>    * Use API references regularly during practice.
+>    * Explore sections on architecture and design philosophy for deeper insights.
 7. **Learn from the community**
    - Analyze open-source projects that use the technology
    - Follow thought leaders and contributors on social media
