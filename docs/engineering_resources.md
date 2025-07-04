@@ -1,6 +1,6 @@
 # Engineering Resources
 
-### LLM Frameworks
+## LLM Frameworks
 
 - **n8n**: [https://n8n.io/](https://n8n.io/)
 
@@ -22,7 +22,7 @@
 
 - **vLLM**: [https://docs.vllm.ai/en/latest/](https://docs.vllm.ai/en/latest/)
 
-### Data & Evaluation
+## Data & Evaluation
 
 - **Argilla**: [https://argilla.io/](https://argilla.io/)
 - **Distilabel**: [https://distilabel.argilla.io/latest/](https://distilabel.argilla.io/latest/)
@@ -48,6 +48,15 @@
 
 - **FAISS**: [https://github.com/facebookresearch/faiss](https://github.com/facebookresearch/faiss)
 
+## Memory
+
+- **Redis**: [https://redis.io/](https://redis.io/) - An in-memory data store that can be used as a high-performance cache, database, and message broker.
+- **SQLite**: [https://www.sqlite.org/index.html](https://www.sqlite.org/index.html) - A lightweight, file-based database that can be used for disk-based caching, ideal for small to medium-sized applications.
+- **Upstash**: [https://upstash.com/](https://upstash.com/) - A serverless data platform that provides Redis and Kafka as a service, offering a scalable solution for caching.
+- **GPTCache**: [https://github.com/zilliztech/GPTCache](https://github.com/zilliztech/GPTCache) - An open-source semantic cache for LLM applications that stores query results based on their meaning, improving response times and reducing costs.
+- **Memcached**: [https://memcached.org/](https://memcached.org/) - A high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.
+- **Letta**: [https://github.com/letta-ai/letta](https://github.com/letta-ai/letta) - A semantic memory system for LLM applications that stores query results based on their meaning, improving response times and reducing costs.
+
 ## Containerization
 
 - **Docker**: [https://www.docker.com/](https://www.docker.com/)
@@ -59,160 +68,96 @@
 
 ## Tools
 
-- Search
+### Search Tools
 
-| Tool/Toolkit                                                                               | Free/Paid                    | Return Data                                           |
-| ------------------------------------------------------------------------------------------ | ---------------------------- | ----------------------------------------------------- |
-| [Bing Search](https://python.langchain.com/docs/integrations/tools/bing_search)            | Paid                         | URL, Snippet, Title                                   |
-| [Brave Search](https://python.langchain.com/docs/integrations/tools/brave_search)          | Free                         | URL, Snippet, Title                                   |
-| [DuckDuckgoSearch](https://python.langchain.com/docs/integrations/tools/duckduckgo_search) | Free                         | URL, Snippet, Title                                   |
-| [Exa Search](https://python.langchain.com/docs/integrations/tools/exa_search)              | 1000 free searches/month     | URL, Author, Title, Published Date                    |
-| [Google Search](https://python.langchain.com/docs/integrations/tools/google_search)        | Paid                         | URL, Snippet, Title                                   |
-| [Google Serper](https://python.langchain.com/docs/integrations/tools/google_serper)        | Free                         | URL, Snippet, Title, Search Rank, Site Links          |
-| [Jina Search](https://python.langchain.com/docs/integrations/tools/jina_search)            | 1M Response Tokens Free      | URL, Snippet, Title, Page Content                     |
-| [Mojeek Search](https://python.langchain.com/docs/integrations/tools/mojeek_search)        | Paid                         | URL, Snippet, Title                                   |
-| [SearchApi](https://python.langchain.com/docs/integrations/tools/search_api)               | 100 Free Searches on Sign Up | URL, Snippet, Title, Search Rank, Site Links, Authors |
-| [SearxNG Search](https://python.langchain.com/docs/integrations/tools/searxng_search)      | Free                         | URL, Snippet, Title, Category                         |
-| [SerpAPI](https://python.langchain.com/docs/integrations/tools/serpapi)                    | 100 Free Searches/Month      | Answer                                                |
-| [Tavily Search](https://python.langchain.com/docs/integrations/tools/tavily_search)        | 1000 free searches/month     | URL, Content, Title, Images, Answer                   |
-| [You.com Search](https://python.langchain.com/docs/integrations/tools/youcom_search)       | Free for 60 days             | URL, Title, Page Content                              |
+- [Bing Search](https://python.langchain.com/docs/integrations/tools/bing_search) - Paid - Returns: URL, Snippet, Title
+- [Brave Search](https://python.langchain.com/docs/integrations/tools/brave_search) - Free - Returns: URL, Snippet, Title
+- [DuckDuckgoSearch](https://python.langchain.com/docs/integrations/tools/duckduckgo_search) - Free - Returns: URL, Snippet, Title
+- [Exa Search](https://python.langchain.com/docs/integrations/tools/exa_search) - 1000 free searches/month - Returns: URL, Author, Title, Published Date
+- [Google Search](https://python.langchain.com/docs/integrations/tools/google_search) - Paid - Returns: URL, Snippet, Title
+- [Google Serper](https://python.langchain.com/docs/integrations/tools/google_serper) - Free - Returns: URL, Snippet, Title, Search Rank, Site Links
+- [Jina Search](https://python.langchain.com/docs/integrations/tools/jina_search) - 1M Response Tokens Free - Returns: URL, Snippet, Title, Page Content
+- [Mojeek Search](https://python.langchain.com/docs/integrations/tools/mojeek_search) - Paid - Returns: URL, Snippet, Title
+- [SearchApi](https://python.langchain.com/docs/integrations/tools/search_api) - 100 Free Searches on Sign Up - Returns: URL, Snippet, Title, Search Rank, Site Links, Authors
+- [SearxNG Search](https://python.langchain.com/docs/integrations/tools/searxng_search) - Free - Returns: URL, Snippet, Title, Category
+- [SerpAPI](https://python.langchain.com/docs/integrations/tools/serpapi) - 100 Free Searches/Month - Returns: Answer
+- [Tavily Search](https://python.langchain.com/docs/integrations/tools/tavily_search) - 1000 free searches/month - Returns: URL, Content, Title, Images, Answer
+- [You.com Search](https://python.langchain.com/docs/integrations/tools/youcom_search) - Free for 60 days - Returns: URL, Title, Page Content
 
-- Code Interpreter
+### Code Interpreter Tools
 
-| Tool/Toolkit                                                                                                                        | Supported Languages           | Sandbox Lifetime    | Supports File Uploads | Return Types | Supports Self-Hosting |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------- | --------------------- | ------------ | --------------------- |
-| [Azure Container Apps dynamic sessions](https://python.langchain.com/docs/integrations/tools/azure_container_apps_dynamic_sessions) | Python                        | 1 Hour              | ✅                     | Text, Images | ❌                     |
-| [Bearly Code Interpreter](https://python.langchain.com/docs/integrations/tools/bearly_code_interpreter)                             | Python                        | Resets on Execution | ✅                     | Text         | ❌                     |
-| [Riza Code Interpreter](https://python.langchain.com/docs/integrations/tools/riza_code_interpreter)                                 | Python, JavaScript, PHP, Ruby | Resets on Execution | ✅                     | Text         | ✅                     |
+- [Azure Container Apps dynamic sessions](https://python.langchain.com/docs/integrations/tools/azure_container_apps_dynamic_sessions)
+- [Bearly Code Interpreter](https://python.langchain.com/docs/integrations/tools/bearly_code_interpreter)
+- [Riza Code Interpreter](https://python.langchain.com/docs/integrations/tools/riza_code_interpreter)
 
-- Productivity
+### Productivity Tools
 
-| Tool/Toolkit                                                                                | Pricing                                                 |
-| ------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| [Github Toolkit](https://python.langchain.com/docs/integrations/tools/github_toolkit)       | Free                                                    |
-| [Gitlab Toolkit](https://python.langchain.com/docs/integrations/tools/gitlab_toolkit)       | Free for personal project                               |
-| [Gmail Toolkit](https://python.langchain.com/docs/integrations/tools/gmail_toolkit)         | Free, with limit of 250 quota units per user per second |
-| [Infobip Tool](https://python.langchain.com/docs/integrations/tools/infobip_tool)           | Free trial, with variable pricing after                 |
-| [Jira Toolkit](https://python.langchain.com/docs/integrations/tools/jira_toolkit)           | Free, with rate limits                                  |
-| [Office365 Toolkit](https://python.langchain.com/docs/integrations/tools/office365_toolkit) | Free with Office365, includes rate limits               |
-| [Slack Toolkit](https://python.langchain.com/docs/integrations/tools/slack_toolkit)         | Free                                                    |
-| [Twilio Tool](https://python.langchain.com/docs/integrations/tools/twilio_tool)             | Free trial, with pay-as-you-go pricing after            |
+- [Github Toolkit](https://python.langchain.com/docs/integrations/tools/github_toolkit) - Free
+- [Gitlab Toolkit](https://python.langchain.com/docs/integrations/tools/gitlab_toolkit) - Free for personal project
+- [Gmail Toolkit](https://python.langchain.com/docs/integrations/tools/gmail_toolkit) - Free, with limit of 250 quota units per user per second
+- [Infobip Tool](https://python.langchain.com/docs/integrations/tools/infobip_tool) - Free trial, with variable pricing after
+- [Jira Toolkit](https://python.langchain.com/docs/integrations/tools/jira_toolkit) - Free, with rate limits
+- [Office365 Toolkit](https://python.langchain.com/docs/integrations/tools/office365_toolkit) - Free with Office365, includes rate limits
+- [Slack Toolkit](https://python.langchain.com/docs/integrations/tools/slack_toolkit) - Free
+- [Twilio Tool](https://python.langchain.com/docs/integrations/tools/twilio_tool) - Free trial, with pay-as-you-go pricing after
 
-- Web Browsing
+### Web Browsing Tools
 
-| Tool/Toolkit                                                                                                              | Pricing                                                     | Supports Interacting with the Browser |
-| ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------- |
-| [AgentQL Toolkit](https://python.langchain.com/docs/integrations/tools/agentql_toolkit)                                   | Free trial, with pay-as-you-go and flat rate plans after    | ✅                                     |
-| [Hyperbrowser Browser Agent Tools](https://python.langchain.com/docs/integrations/tools/hyperbrowser_browser_agent_tools) | Free trial, with flat rate plans and pre-paid credits after | ✅                                     |
-| [Hyperbrowser Web Scraping Tools](https://python.langchain.com/docs/integrations/tools/hyperbrowser_web_scraping_tools)   | Free trial, with flat rate plans and pre-paid credits after | ❌                                     |
-| [MultiOn Toolkit](https://python.langchain.com/docs/integrations/tools/multion_toolkit)                                   | 40 free requests/day                                        | ✅                                     |
-| [PlayWright Browser Toolkit](https://python.langchain.com/docs/integrations/tools/playwright_browser_toolkit)             | Free                                                        | ✅                                     |
-| [Requests Toolkit](https://python.langchain.com/docs/integrations/tools/requests_toolkit)                                 | Free                                                        | ❌                                     |
+- [AgentQL Toolkit](https://python.langchain.com/docs/integrations/tools/agentql_toolkit) - Free trial, with pay-as-you-go and flat rate plans after
+- [Hyperbrowser Browser Agent Tools](https://python.langchain.com/docs/integrations/tools/hyperbrowser_browser_agent_tools) - Free trial, with flat rate plans and pre-paid credits after
+- [Hyperbrowser Web Scraping Tools](https://python.langchain.com/docs/integrations/tools/hyperbrowser_web_scraping_tools) - Free trial, with flat rate plans and pre-paid credits after
+- [MultiOn Toolkit](https://python.langchain.com/docs/integrations/tools/multion_toolkit) - 40 free requests/day
+- [PlayWright Browser Toolkit](https://python.langchain.com/docs/integrations/tools/playwright_browser_toolkit) - Free
+- [Requests Toolkit](https://python.langchain.com/docs/integrations/tools/requests_toolkit) - Free
 
-- Database
+### Database Tools
 
-| Tool/Toolkit                                                                                         | Allowed Operations              |
-| ---------------------------------------------------------------------------------------------------- | ------------------------------- |
-| [Cassandra Database Toolkit](https://python.langchain.com/docs/integrations/tools/cassandra_toolkit) | SELECT and schema introspection |
-| [SQLDatabase Toolkit](https://python.langchain.com/docs/integrations/tools/sqldatabase_toolkit)      | Any SQL operation               |
-| [Spark SQL Toolkit](https://python.langchain.com/docs/integrations/tools/spark_sql_toolkit)          | Any SQL operation               |
+- [Cassandra Database Toolkit](https://python.langchain.com/docs/integrations/tools/cassandra_toolkit) - SELECT and schema introspection
+- [SQLDatabase Toolkit](https://python.langchain.com/docs/integrations/tools/sqldatabase_toolkit) - Any SQL operation
+- [Spark SQL Toolkit](https://python.langchain.com/docs/integrations/tools/spark_sql_toolkit) - Any SQL operation
 
-- Finance
+### Document Loaders
 
-| Tool/Toolkit                                                      | Pricing | Capabilities                                                                     |
-| ----------------------------------------------------------------- | ------- | -------------------------------------------------------------------------------- |
-| [GOAT](https://python.langchain.com/docs/integrations/tools/goat) | Free    | Create and receive payments, purchase physical goods, make investments, and more |
+- [`Web`](https://python.langchain.com/docs/integrations/document_loaders/web_base) - Uses urllib and BeautifulSoup
+- [`Unstructured`](https://python.langchain.com/docs/integrations/document_loaders/unstructured) - Parses web pages using Unstructured
+- [`RecursiveURL`](https://python.langchain.com/docs/integrations/document_loaders/recursive_url) - Recursively scrapes child links
+- [`Sitemap`](https://python.langchain.com/docs/integrations/document_loaders/sitemap) - Loads pages via sitemap
+- [`Firecrawl`](https://python.langchain.com/docs/integrations/document_loaders/firecrawl) - API service, deployable locally
+- [`Docling`](https://ds4sd.github.io/docling/) - Uses Docling to parse web pages
+- [`Hyperbrowser`](https://python.langchain.com/docs/integrations/document_loaders/hyperbrowser) - Scales headless browser tasks
+- [`AgentQL`](https://python.langchain.com/docs/integrations/document_loaders/agentql) - Structured web data extraction
 
-For a full list of tools, visit the [LangChain Tool Integrations Page](https://python.langchain.com/docs/integrations/tools/).
+- [`PyPDF`](https://python.langchain.com/docs/integrations/document_loaders/pypdf) - Loads PDFs with `pypdf`
+- [`Unstructured`](https://python.langchain.com/docs/integrations/document_loaders/unstructured) - Open source PDF loader
+- [`Amazon Textract`](https://python.langchain.com/docs/integrations/document_loaders/amazon_textract) - Loads PDFs with AWS Textract
+- [`MathPix`](https://python.langchain.com/docs/integrations/document_loaders/mathpix_pdf) - Extracts scientific PDFs
+- [`PDFPlumber`](https://python.langchain.com/docs/integrations/document_loaders/pdfplumber) - Parses PDFs with PDFPlumber
+- [`PyPDFDirectory`](https://python.langchain.com/docs/integrations/document_loaders/pypdf_directory) - Loads all PDFs from a folder
+- [`PyPDFium2`](https://python.langchain.com/docs/integrations/document_loaders/pypdfium2) - Loads using PyPDFium2
+- [`PyMuPDF`](https://python.langchain.com/docs/integrations/document_loaders/pymupdf) - Loads with PyMuPDF
+- [`PyMuPDF4LLM`](https://python.langchain.com/docs/integrations/document_loaders/pymupdf4llm) - Converts PDF to markdown
+- [`PDFMiner`](https://python.langchain.com/docs/integrations/document_loaders/pdfminer) - Uses PDFMiner
+- [`Upstage`](https://python.langchain.com/docs/integrations/document_loaders/upstage) - Loads PDFs via Upstage API
+- [`Docling`](https://ds4sd.github.io/docling/) - Loads PDFs with Docling
 
-## Document
+### Messaging Services
 
-- These loaders allow you to load webpages. See this [guide](https://docs.langchain.com/docs/modules/data_connection/document_loaders/how_to/web) to get started.
+- Telegram
+- WhatsApp
+- Discord
+- Facebook Chat
+- Mastodon
 
-| Document Loader                                                                                 | Description                         | Type    |
-| ----------------------------------------------------------------------------------------------- | ----------------------------------- | ------- |
-| [`Web`](https://python.langchain.com/docs/integrations/document_loaders/web_base)               | Uses urllib and BeautifulSoup       | Package |
-| [`Unstructured`](https://python.langchain.com/docs/integrations/document_loaders/unstructured)  | Parses web pages using Unstructured | Package |
-| [`RecursiveURL`](https://python.langchain.com/docs/integrations/document_loaders/recursive_url) | Recursively scrapes child links     | Package |
-| [`Sitemap`](https://python.langchain.com/docs/integrations/document_loaders/sitemap)            | Loads pages via sitemap             | Package |
-| [`Firecrawl`](https://python.langchain.com/docs/integrations/document_loaders/firecrawl)        | API service, deployable locally     | API     |
-| [`Docling`](https://ds4sd.github.io/docling/)                                                   | Uses Docling to parse web pages     | Package |
-| [`Hyperbrowser`](https://python.langchain.com/docs/integrations/document_loaders/hyperbrowser)  | Scales headless browser tasks       | API     |
-| [`AgentQL`](https://python.langchain.com/docs/integrations/document_loaders/agentql)            | Structured web data extraction      | API     |
+### Cloud Providers
 
-- See the [guide](https://docs.langchain.com/docs/modules/data_connection/document_loaders/how_to/pdf) to load PDF files.
+- AWS S3 Directory
+- AWS S3 File
+- Google Cloud Storage Directory
+- Google Cloud Storage File
+- Azure Blob Storage Container
+- Azure Blob Storage File
 
-| Document Loader                                                                                      | Description                  | Type    |
-| ---------------------------------------------------------------------------------------------------- | ---------------------------- | ------- |
-| [`PyPDF`](https://python.langchain.com/docs/integrations/document_loaders/pypdf)                     | Loads PDFs with `pypdf`      | Package |
-| [`Unstructured`](https://python.langchain.com/docs/integrations/document_loaders/unstructured)       | Open source PDF loader       | Package |
-| [`Amazon Textract`](https://python.langchain.com/docs/integrations/document_loaders/amazon_textract) | Loads PDFs with AWS Textract | API     |
-| [`MathPix`](https://python.langchain.com/docs/integrations/document_loaders/mathpix_pdf)             | Extracts scientific PDFs     | Package |
-| [`PDFPlumber`](https://python.langchain.com/docs/integrations/document_loaders/pdfplumber)           | Parses PDFs with PDFPlumber  | Package |
-| [`PyPDFDirectory`](https://python.langchain.com/docs/integrations/document_loaders/pypdf_directory)  | Loads all PDFs from a folder | Package |
-| [`PyPDFium2`](https://python.langchain.com/docs/integrations/document_loaders/pypdfium2)             | Loads using PyPDFium2        | Package |
-| [`PyMuPDF`](https://python.langchain.com/docs/integrations/document_loaders/pymupdf)                 | Loads with PyMuPDF           | Package |
-| [`PyMuPDF4LLM`](https://python.langchain.com/docs/integrations/document_loaders/pymupdf4llm)         | Converts PDF to markdown     | Package |
-| [`PDFMiner`](https://python.langchain.com/docs/integrations/document_loaders/pdfminer)               | Uses PDFMiner                | Package |
-| [`Upstage`](https://python.langchain.com/docs/integrations/document_loaders/upstage)                 | Loads PDFs via Upstage API   | Package |
-| [`Docling`](https://ds4sd.github.io/docling/)                                                        | Loads PDFs with Docling      | Package |
+### Social Platforms
 
-- Cloud Providers
-
-| Document Loader                | Description                     | API Reference                     |
-| ------------------------------ | ------------------------------- | --------------------------------- |
-| AWS S3 Directory               | Load from an S3 directory       | `S3DirectoryLoader`               |
-| AWS S3 File                    | Load from an S3 file            | `S3FileLoader`                    |
-| Azure AI Data                  | Load from Azure AI services     | `AzureAIDataLoader`               |
-| Azure Blob Storage Container   | Load from Azure Blob container  | `AzureBlobStorageContainerLoader` |
-| Azure Blob Storage File        | Load from Azure Blob file       | `AzureBlobStorageFileLoader`      |
-| Dropbox                        | Load from Dropbox               | `DropboxLoader`                   |
-| Google Cloud Storage Directory | Load from GCS bucket            | `GCSDirectoryLoader`              |
-| Google Cloud Storage File      | Load from GCS object            | `GCSFileLoader`                   |
-| Google Drive                   | Load Google Docs from Drive     | `GoogleDriveLoader`               |
-| Huawei OBS Directory           | Load from Huawei OBS Directory  | `OBSDirectoryLoader`              |
-| Huawei OBS File                | Load from Huawei OBS File       | `OBSFileLoader`                   |
-| Microsoft OneDrive             | Load from OneDrive              | `OneDriveLoader`                  |
-| Microsoft SharePoint           | Load from SharePoint            | `SharePointLoader`                |
-| Tencent COS Directory          | Load from Tencent COS Directory | `TencentCOSDirectoryLoader`       |
-| Tencent COS File               | Load from Tencent COS File      | `TencentCOSFileLoader`            |
-
-- Social Platforms
-
-| Document Loader | API Reference        |
-| --------------- | -------------------- |
-| Twitter         | `TwitterTweetLoader` |
-| Reddit          | `RedditPostsLoader`  |
-
-- Messaging Services
-
-| Document Loader | API Reference            |
-| --------------- | ------------------------ |
-| Telegram        | `TelegramChatFileLoader` |
-| WhatsApp        | `WhatsAppChatLoader`     |
-| Discord         | `DiscordChatLoader`      |
-| Facebook Chat   | `FacebookChatLoader`     |
-| Mastodon        | `MastodonTootsLoader`    |
-
-- Productivity Tools
-
-| Document Loader | API Reference           |
-| --------------- | ----------------------- |
-| Figma           | `FigmaFileLoader`       |
-| Notion          | `NotionDirectoryLoader` |
-| Slack           | `SlackDirectoryLoader`  |
-| Quip            | `QuipLoader`            |
-| Trello          | `TrelloLoader`          |
-| Roam            | `RoamLoader`            |
-| GitHub          | `GithubFileLoader`      |
-
-- Common File Types
-
-| Document Loader                                                                                | Data Type                  |
-| ---------------------------------------------------------------------------------------------- | -------------------------- |
-| [`CSVLoader`](https://python.langchain.com/docs/integrations/document_loaders/csv)             | CSV files                  |
-| [`DirectoryLoader`](https://python.langchain.com/docs/integrations/document_loaders/directory) | All files in directory     |
-| [`Unstructured`](https://docs.unstructured.io/platform/supported-file-types)                   | Many types supported       |
-| [`JSONLoader`](https://python.langchain.com/docs/integrations/document_loaders/json)           | JSON files                 |
-| [`BSHTMLLoader`](https://python.langchain.com/docs/integrations/document_loaders/bshtml)       | HTML files                 |
-| [`Docling`](https://ds4sd.github.io/docling/)                                                  | Multiple formats supported |
+- Twitter
+- Reddit
