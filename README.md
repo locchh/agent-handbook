@@ -55,7 +55,7 @@
 
 ## 🌐 Engineering Resources
 
-- **[Engineering Resources](./docs/engineering_resources.md)**: A collection of resources for building, evaluating, and understanding AI agents and Large Language Models.
+- **[Engineering Resources](./docs/engineering_resources.md)**: A collection of resources for building AI agents and Large Language Models.
 - **[MCP Hub](https://github.com/iteam1/mcp-hub)**: A centralized repository for Model Context Protocol (MCP) projects.
 - **[ACP Hub](https://github.com/locchh/acp-hub)**: A centralized repository for ACP projects.
 - **[A2A Hub](https://github.com/locchh/a2a-hub)**: A centralized repository for A2A projects.
