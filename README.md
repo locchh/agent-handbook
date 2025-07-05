@@ -59,4 +59,4 @@
 - **[MCP Hub](https://github.com/iteam1/mcp-hub)**: A centralized repository for Model Context Protocol (MCP) projects.
 - **[ACP Hub](https://github.com/locchh/acp-hub)**: A centralized repository for Agent Communication Protocol (ACP) projects.
 - **[A2A Hub](https://github.com/locchh/a2a-hub)**: A centralized repository for Agent to Agent Protocol (A2A) projects.
- 
+- **[LLM PlayGround](https://github.com/locchh/llm-playground)**: A collection of experiments with large language models across various NLP tasks.
