@@ -32,6 +32,7 @@
 - **[smolagents GitHub](https://github.com/huggingface/smolagents)**: The source code for the smolagents library.
 - **[Why LangGraph?](https://langchain-ai.github.io/langgraph/concepts/why-langgraph/)**: An introduction to the concepts behind LangGraph.
 - **[LangGraph GitHub](https://github.com/langchain-ai/langgraph)**: A library for building stateful, multi-actor applications with LLMs.
+- **[BeeAI](https://beeai.dev/)**: The open-source platform to discover, run, and compose AI agents from any framework.
 
 ## 🤝 Protocols
 - **[A2A Github](https://github.com/a2aproject/A2A)**: The official repository of the Agent-to-Agent (A2A) communication protocol.
