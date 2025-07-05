@@ -120,27 +120,27 @@
 
 ### Document Loaders
 
-- [`Web`](https://python.langchain.com/docs/integrations/document_loaders/web_base) - Uses urllib and BeautifulSoup
-- [`Unstructured`](https://python.langchain.com/docs/integrations/document_loaders/unstructured) - Parses web pages using Unstructured
-- [`RecursiveURL`](https://python.langchain.com/docs/integrations/document_loaders/recursive_url) - Recursively scrapes child links
-- [`Sitemap`](https://python.langchain.com/docs/integrations/document_loaders/sitemap) - Loads pages via sitemap
-- [`Firecrawl`](https://python.langchain.com/docs/integrations/document_loaders/firecrawl) - API service, deployable locally
-- [`Docling`](https://ds4sd.github.io/docling/) - Uses Docling to parse web pages
-- [`Hyperbrowser`](https://python.langchain.com/docs/integrations/document_loaders/hyperbrowser) - Scales headless browser tasks
-- [`AgentQL`](https://python.langchain.com/docs/integrations/document_loaders/agentql) - Structured web data extraction
+- [Web`](https://python.langchain.com/docs/integrations/document_loaders/web_base) - Uses urllib and BeautifulSoup
+- [Unstructured`](https://python.langchain.com/docs/integrations/document_loaders/unstructured) - Parses web pages using Unstructured
+- [RecursiveURL`](https://python.langchain.com/docs/integrations/document_loaders/recursive_url) - Recursively scrapes child links
+- [Sitemap`](https://python.langchain.com/docs/integrations/document_loaders/sitemap) - Loads pages via sitemap
+- [Firecrawl`](https://python.langchain.com/docs/integrations/document_loaders/firecrawl) - API service, deployable locally
+- [Docling`](https://ds4sd.github.io/docling/) - Uses Docling to parse web pages
+- [Hyperbrowser`](https://python.langchain.com/docs/integrations/document_loaders/hyperbrowser) - Scales headless browser tasks
+- [AgentQL`](https://python.langchain.com/docs/integrations/document_loaders/agentql) - Structured web data extraction
 
-- [`PyPDF`](https://python.langchain.com/docs/integrations/document_loaders/pypdf) - Loads PDFs with `pypdf`
-- [`Unstructured`](https://python.langchain.com/docs/integrations/document_loaders/unstructured) - Open source PDF loader
-- [`Amazon Textract`](https://python.langchain.com/docs/integrations/document_loaders/amazon_textract) - Loads PDFs with AWS Textract
-- [`MathPix`](https://python.langchain.com/docs/integrations/document_loaders/mathpix_pdf) - Extracts scientific PDFs
-- [`PDFPlumber`](https://python.langchain.com/docs/integrations/document_loaders/pdfplumber) - Parses PDFs with PDFPlumber
-- [`PyPDFDirectory`](https://python.langchain.com/docs/integrations/document_loaders/pypdf_directory) - Loads all PDFs from a folder
-- [`PyPDFium2`](https://python.langchain.com/docs/integrations/document_loaders/pypdfium2) - Loads using PyPDFium2
-- [`PyMuPDF`](https://python.langchain.com/docs/integrations/document_loaders/pymupdf) - Loads with PyMuPDF
-- [`PyMuPDF4LLM`](https://python.langchain.com/docs/integrations/document_loaders/pymupdf4llm) - Converts PDF to markdown
-- [`PDFMiner`](https://python.langchain.com/docs/integrations/document_loaders/pdfminer) - Uses PDFMiner
-- [`Upstage`](https://python.langchain.com/docs/integrations/document_loaders/upstage) - Loads PDFs via Upstage API
-- [`Docling`](https://ds4sd.github.io/docling/) - Loads PDFs with Docling
+- [PyPDF`](https://python.langchain.com/docs/integrations/document_loaders/pypdf) - Loads PDFs with `pypdf`
+- [Unstructured](https://python.langchain.com/docs/integrations/document_loaders/unstructured) - Open source PDF loader
+- [Amazon Textract](https://python.langchain.com/docs/integrations/document_loaders/amazon_textract) - Loads PDFs with AWS Textract
+- [MathPix](https://python.langchain.com/docs/integrations/document_loaders/mathpix_pdf) - Extracts scientific PDFs
+- [PDFPlumber](https://python.langchain.com/docs/integrations/document_loaders/pdfplumber) - Parses PDFs with PDFPlumber
+- [PyPDFDirectory](https://python.langchain.com/docs/integrations/document_loaders/pypdf_directory) - Loads all PDFs from a folder
+- [PyPDFium2](https://python.langchain.com/docs/integrations/document_loaders/pypdfium2) - Loads using PyPDFium2
+- [PyMuPDF](https://python.langchain.com/docs/integrations/document_loaders/pymupdf) - Loads with PyMuPDF
+- [PyMuPDF4LLM](https://python.langchain.com/docs/integrations/document_loaders/pymupdf4llm) - Converts PDF to markdown
+- [PDFMiner](https://python.langchain.com/docs/integrations/document_loaders/pdfminer) - Uses PDFMiner
+- [Upstage](https://python.langchain.com/docs/integrations/document_loaders/upstage) - Loads PDFs via Upstage API
+- [Docling](https://ds4sd.github.io/docling/) - Loads PDFs with Docling
 
 ### Messaging Services
 
