@@ -61,6 +61,8 @@
 
 - **Docker**: [https://www.docker.com/](https://www.docker.com/)
 
+- **K3s**: [https://k3s.io/](https://k3s.io/)
+- 
 - **Kubernetes**: [https://kubernetes.io/](https://kubernetes.io/)
 
 - **Minikube**: [https://minikube.sigs.k8s.io/](https://minikube.sigs.k8s.io/)
