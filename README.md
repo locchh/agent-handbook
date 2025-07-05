@@ -1,6 +1,6 @@
 <h1 align="center">Agent Engineering Handbook</h1>
 
-*Gather a broad range of aspects and resources (frameworks, libraries, tools, etc.). Choose the most representative ones, learn just enough to build something, then practice until you can see beyond the details to the underlying patterns.*
+*[Gather a broad range of aspects and resources (frameworks, libraries, tools, etc.). Choose the most representative ones, learn just enough to build something, then practice until you can see beyond the details to the underlying patterns.](.docs/formula.md)*
  
 <p align="center"><img src="assets/agent.png" width="75%"></p>
 <p align="center"><em>Figure 1 – A generic agent architecture.</em></p>
