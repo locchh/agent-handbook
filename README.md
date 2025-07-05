@@ -8,7 +8,7 @@
 <p align="center"><img src="assets/mcp-agent.png" width="75%"></p>
 <p align="center"><em>Figure 2 – An AI-agent stack that uses Model Context Protocol for unified context (tools, memory, docs).</em></p>
 
-<p align="center"><img src="assets/multi-agent.png" width="75%"></p>
+<p align="center"><img src="assets/multi-agent.png" width="100%"></p>
 <p align="center"><em>Figure 3 – An AI Multi Agent System.</em></p>
 
 ## 📚 General Resources
