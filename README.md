@@ -33,6 +33,7 @@
 - **[Why LangGraph?](https://langchain-ai.github.io/langgraph/concepts/why-langgraph/)**: An introduction to the concepts behind LangGraph.
 - **[LangGraph GitHub](https://github.com/langchain-ai/langgraph)**: A library for building stateful, multi-actor applications with LLMs.
 - **[BeeAI](https://beeai.dev/)**: The open-source platform to discover, run, and compose AI agents from any framework.
+- **[BeeAI Document](https://docs.beeai.dev/introduction/welcome)**: BeeAI is an open-source platform that makes it easy to discover, run, and share AI agents across frameworks.
 
 ## 🤝 Protocols
 - **[A2A Github](https://github.com/a2aproject/A2A)**: The official repository of the Agent-to-Agent (A2A) communication protocol.
