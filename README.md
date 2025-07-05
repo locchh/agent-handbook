@@ -30,10 +30,10 @@
 - **[LangGraph GitHub](https://github.com/langchain-ai/langgraph)**: A library for building stateful, multi-actor applications with LLMs.
 
 ## 🤝 Protocols
-- **[A2A Github](https://github.com/a2aproject/A2A)**
-- **[A2A Project](https://a2aproject.github.io/A2A/v0.2.5/)**
-- **[ACP](https://github.com/i-am-bee/acp)**
-- **[ACP Document](https://agentcommunicationprotocol.dev/introduction/welcome)**
+- **[A2A Github](https://github.com/a2aproject/A2A)**: The official repository of the Agent-to-Agent (A2A) communication protocol.
+- **[A2A Project](https://a2aproject.github.io/A2A/v0.2.5/)**:  Comprehensive documentation for understanding and implementing A2A.
+- **[ACP](https://github.com/i-am-bee/acp)**:  The Agent Communication Protocol (ACP) source code repository.
+- **[ACP Document](https://agentcommunicationprotocol.dev/introduction/welcome)**:  Introduction and technical overview of ACP.
 - **[Hugging Face MCP Course](https://huggingface.co/learn/mcp-course)**: Learn about the Model Context Protocol.
 - **[MCP Introduction](https://modelcontextprotocol.io/introduction)**: The official introduction to MCP.
 - **[Python SDK for MCP](https://github.com/modelcontextprotocol/python-sdk)**: The official Python SDK for MCP.
